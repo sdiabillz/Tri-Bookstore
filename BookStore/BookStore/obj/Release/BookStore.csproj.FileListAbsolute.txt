@@ -1,0 +1,172 @@
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\ApplicationInsights.config
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\BookStore.dll.config
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\BookStore.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\BookStore.pdb
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Antlr3.Runtime.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.Web.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Newtonsoft.Json.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Helpers.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Mvc.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Optimization.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Razor.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\WebGrease.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.Web.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Helpers.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Mvc.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Optimization.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.Razor.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Antlr3.Runtime.pdb
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Newtonsoft.Json.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\obj\Release\BookStore.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\obj\Release\BookStore.pdb
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\EntityFramework.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\EntityFramework.SqlServer.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\Microsoft.Web.Helpers.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\WebMatrix.Data.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\WebMatrix.WebData.dll
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\EntityFramework.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\EntityFramework.SqlServer.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\WebMatrix.Data.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\bin\WebMatrix.WebData.xml
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\obj\Release\BookStore.Migrations.InitialCreate.resources
+C:\Users\Sekou\Desktop\Temp School Stuff\BookStore\BookStore\obj\Release\BookStore.csproj.GenerateResource.Cache
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ApplicationInsights.config
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\BookStore.dll.config
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\BookStore.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\BookStore.pdb
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Antlr3.Runtime.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\EntityFramework.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\EntityFramework.SqlServer.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.Web.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Web.Helpers.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Newtonsoft.Json.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Net.Http.Extensions.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Net.Http.Primitives.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Helpers.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Mvc.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Optimization.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Razor.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\WebGrease.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\WebMatrix.Data.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\WebMatrix.WebData.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Mono.Math.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\EntityFramework.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\EntityFramework.SqlServer.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.Web.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Net.Http.Extensions.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Net.Http.Primitives.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Helpers.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Razor.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Mvc.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Web.Optimization.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Antlr3.Runtime.pdb
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\WebMatrix.Data.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\WebMatrix.WebData.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Newtonsoft.Json.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Mono.Math.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.csproj.App.config
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.csproj.GenerateResource.Cache
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.pdb
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.csprojResolveAssemblyReference.cache
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.Edm.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.OData.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Spatial.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\MonAgentListener.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.Edm.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.OData.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\System.Spatial.xml
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\de\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\es\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\fr\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\it\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ja\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ko\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\ru\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Sekou\Desktop\BookStore\BookStore\obj\Release\BookStore.Migrations.initialCreate.resources

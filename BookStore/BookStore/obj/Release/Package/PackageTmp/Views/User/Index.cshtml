@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BookStore.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>User Index</h1>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Securitylevel)
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Securitylevel)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.UserID }) @*|
+                        @Html.ActionLink("Details", "Details", new { id=item.UserID }) |
+                        @html.actionlink("delete", "delete", new { id=item.userid })*@
+                </td>
+            </tr>
+        }
+    </table>
+</div>

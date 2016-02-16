@@ -1,0 +1,144 @@
+﻿@model BookStore.Models.ViewModels.PostingsViewModel
+@{
+    ViewBag.Title = "Edit Post";
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="jumbotron">
+        <p class="btn btn-default"> @Html.ActionLink("Login", "Login", "Account")</p>      
+    </div>
+}
+else
+{
+    <div class="jumbotron">
+        <div class="container">
+            @using (Html.BeginForm())
+            {   @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+
+                <h2 class="text-center">Edit Your Post</h2>
+
+                <div class=" row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.DisplayNameFor(m => m.postings.PostTitle)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.EditorFor(m => m.postings.PostTitle)
+                                @Html.ValidationMessageFor(m => m.postings.PostTitle)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.DisplayNameFor(m => m.postings.BookTitle)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.EditorFor(m => m.postings.BookTitle)
+                                @Html.ValidationMessageFor(m => m.postings.BookTitle)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.DisplayNameFor(m => m.postings.price)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.EditorFor(m => m.postings.price)
+                                @Html.ValidationMessageFor(m => m.postings.price)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.DisplayNameFor(m => m.postings.PostDescription)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.EditorFor(m => m.postings.PostDescription)
+                                @Html.ValidationMessageFor(m => m.postings.PostDescription)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.DisplayNameFor(m => m.postings.author)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="editor-label">
+                                @Html.EditorFor(m => m.postings.author)
+                                @Html.ValidationMessageFor(m => m.postings.author)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <div class="form-group">
+                                @*//  @Html.DisplayFor(m =>m.postings. )*@
+                                @*<img src="@Model.img" alt="your image" id="blah" width="100" height="100" />
+                                    <img src="@ViewBag.Logo" alt="Logo" />*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @*// <input type='file' id="imgInp" name="filePlace" />
+                                <img id="blah" src=@Model.URL alt="your image" width="100" height="100" />*@
+                            @*<img id="blah" src=@Model. alt="your image" width="100" height="100" />*@
+                        </div>
+                    </div>
+                </div>
+                <div class="center-block">
+                    <button type="submit" class="btn btn-default" value="Edit">Save</button>
+
+                </div>
+
+
+            }
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+
+        }
+    }
+
+    $("#imgInp").change(function(){
+        readURL(this);
+    });
+    </script>
+}

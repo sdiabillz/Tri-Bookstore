@@ -1,0 +1,158 @@
+﻿@model BookStore.Models.ViewModels.PostingsViewModel
+
+@{
+    ViewBag.Title = "Post Page";
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+
+    <div class="jumbotron">
+        <h1> Post</h1>
+        <p class="lead"> Post your used books on the Tri-Bookstore.</p>
+        <p class="btn btn-default"> @Html.ActionLink("Login", "Login", "Account")</p>      
+    </div>
+
+}
+else
+{
+  
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class="text-center">Post your book</h2>
+            <form role="form" form action="Post/Index" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                <div class=" row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.postings.PostTitle)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.postings.PostTitle)
+                            @Html.ValidationMessageFor(m => m.postings.PostTitle)
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.postings.BookTitle)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.postings.BookTitle)
+                            @Html.ValidationMessageFor(m => m.postings.BookTitle)
+                        </div>
+                    </div>                  
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.postings.PostDescription)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextAreaFor(m => m.postings.PostDescription)
+                            @Html.ValidationMessageFor(m => m.postings.PostDescription)
+                        </div>
+                    </div>               
+                </div>
+
+                <div class=" row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.postings.author)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.postings.author)
+                            @Html.ValidationMessageFor(m => m.postings.author)
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.postings.price)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.postings.price)
+                            @Html.ValidationMessageFor(m => m.postings.price)
+                        </div>
+                    </div>
+          
+                </div>
+
+                @*@if (User.IsInRole("admin"))
+                {
+                    <div class=" row">
+
+                        <div class="col-xs-6 col-md-4">
+                            <div class="form-group">
+                                OFFICIAL:
+                            </div>
+                            <div class="form-group">
+                                @Html.CheckBoxFor(m => m.isOfficial)                               
+                            </div>
+                        </div>
+                        @if (Model.isOfficial == true)
+                        { 
+                        <div class="col-xs-6 col-md-4">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Opostings.CourseID)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Opostings.CourseID)
+                                @Html.ValidationMessageFor(m => m.Opostings.CourseID)
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-md-4">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Opostings.CourseInfo)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Opostings.CourseInfo)
+                                @Html.ValidationMessageFor(m => m.Opostings.CourseInfo)
+                            </div>
+                        </div>
+                        }
+                    </div>
+                }*@
+                <div class=" row">
+               
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.filepath)
+                            @Html.TextBoxFor(m => m.filepath, new { type = "file" })
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+
+                        <div class="center-block">
+                            <button type="submit" class="btn btn-default" value="Upload Image">Submit</button>
+                        </div>
+                    </div>
+                </div> 
+            </form>
+        </div>     
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+
+        }
+    }
+
+    $("#imgInp").change(function(){
+        readURL(this);
+    });
+    </script>
+}

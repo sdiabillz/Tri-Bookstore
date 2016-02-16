@@ -1,0 +1,66 @@
+﻿@*Java script delete confirm dialog reference: http://jameschambers.com/2014/07/day-29-confirmation-dialogs-for-delete-actions/*@
+@model BookStore.Models.ViewModels.ManageViewModel
+@{
+    ViewBag.Title = "My Postings";
+}
+@if (User.Identity.IsAuthenticated)
+{
+    <form id="notificationForm" method="POST">
+        <input type="hidden" name="id" id="notificationFormItemId" />
+    </form>
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class="text-center">Manage Your Postings</h2>
+        </div>
+    </div>
+    
+    <asp:content id="Content1">
+        <ul class="list-group">
+            @foreach (var item in Model.AllPostings)
+            {
+                <li class="list-group-item list-group-item-success">
+                    @if (item.PostingType.ToUpper() == "OFFICIAL")
+                    {
+                        @Html.DisplayFor(modelItem => item.PostingType)<br>
+
+                    }
+                    @Html.DisplayFor(modelItem => item.institution)<br>
+                    @Html.DisplayNameFor(model => model.postings.PostTitle)  @Html.DisplayFor(modelItem => item.postings.PostTitle) <br>
+                    @Html.DisplayNameFor(model => model.postings.BookTitle)  @Html.DisplayFor(modelItem => item.postings.BookTitle) <br>
+                    @Html.DisplayNameFor(model => model.postings.author) @Html.DisplayFor(modelItem => item.postings.author) <br>
+                    @Html.DisplayNameFor(model => model.postings.price)  @Html.DisplayFor(modelItem => item.postings.price)<br>
+                    @if (item.PostingType.ToUpper() == "OFFICIAL")
+                    {
+                    @Html.DisplayNameFor(model => model.Officialpostings.CourseID)  @Html.DisplayFor(modelItem => item.Opostings.CourseID)<br>
+                    @Html.DisplayNameFor(model => model.Officialpostings.CourseInfo)  @Html.DisplayFor(modelItem => item.Opostings.CourseInfo)<br>
+                    }
+                    @Html.ActionLink("Edit", "Edit", "post", new { id = item.postings.PostingID }, new { @style = "color:red;" }) 
+                    &nbsp;  &nbsp;@Html.ActionLink("Details", "Details", "post", new { id = item.postings.PostingID }, new { @style = "color:red;" })
+                    &nbsp;  &nbsp;<a style ="color:red" href="javascript:confirmDelete(@item.postings.PostingID)">Delete</a> 
+                </li>
+            }
+        </ul>
+    </asp:content>
+}
+else
+{
+    <div class="jumbotron">
+        <h1> Post</h1>
+        <p class="lead"> Post your used books on the Tri-Bookstore.</p>
+        <p class="btn btn-default"> @Html.ActionLink("Login", "Login", "Account")</p>
+    </div>
+
+}
+@section topLevel{
+
+    @{ Html.RenderPartial("_RenderNotifications.Modal"); }
+
+}
+
+@section Scripts {
+
+    @Scripts.Render("~/bundles/jqueryval")
+    @{ Html.RenderPartial("_RenderNotifications.js"); }
+
+}

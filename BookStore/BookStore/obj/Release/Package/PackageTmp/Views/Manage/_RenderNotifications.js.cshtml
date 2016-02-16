@@ -1,0 +1,35 @@
+﻿
+<script type="text/javascript">
+
+    var readUrl = '@Url.Action("MarkNotificationAsRead")';
+    var deleteUrl = '@Url.Action("Delete")';
+    var currentNotificationId;
+
+    /*third call to delete*/
+    function updateNotification(id, action) {
+        $("#notificationFormItemId").val(id);
+        switch (action) {
+        case 'read':
+            $("#notificationForm").attr('action', readUrl).submit();
+            break;
+        case 'delete':
+            $("#notificationForm").attr('action', deleteUrl).submit();
+            break;
+        default:
+            console.debug('Unknown action ' + action);
+        }
+    }
+
+    /*First call to delete*/
+    function confirmDelete(id) {
+        currentNotificationId = id;
+        $('#deleteConfirmModal').modal('show');
+    }
+
+    /*second repsonse to onclick call to delete*/
+    $(function() {
+        $("#deleteConfirmModal").on('click', "#deleteConfirm", function() {
+            updateNotification(currentNotificationId, 'delete');
+        });
+    });
+</script>

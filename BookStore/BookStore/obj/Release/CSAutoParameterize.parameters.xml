@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BookStoreContext-Web.config Connection String" description="BookStoreContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:euxn6oi0m6.database.windows.net,1433;Database=A4Bookstore_db;User ID=A4BookstoreServer@euxn6oi0m6;Password=Sekou123;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sekou\\Desktop\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookStoreContext']/@connectionString" />
+  </parameter>
+  <parameter name="BookStoreContext_DatabasePublish-Web.config Connection String" description="BookStoreContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="BookStoreContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sekou\\Desktop\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookStoreContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,25 @@
+﻿@model BookStore.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Manage Account";
+}
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <p class="message-success">@ViewBag.StatusMessage</p>
+            <p>You're logged in as <strong>@User.Identity.Name</strong>.</p>
+            <p class="btn btn-default">@Html.ActionLink("Change Password", "ChangePassword", "Account")</p>
+        </div>
+
+        <div class="col-md-4">
+            @*@if (ViewBag.HasLocalPassword)
+            {
+               <a class="text-right" @Html.Partial("_ChangePasswordPartial")/>
+            }*@
+        </div>
+    </div>
+
+    </div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

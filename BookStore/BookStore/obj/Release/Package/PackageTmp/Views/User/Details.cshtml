@@ -1,0 +1,34 @@
+﻿@model BookStore.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="jumbotron">
+    <h2>User Details</h2>
+    <fieldset>
+        <legend>User</legend>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Email)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Email)
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.pword)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.pword)
+        </div>
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Securitylevel)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Securitylevel)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.UserID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+    </div >

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore", "BookStore\BookStore.csproj", "{254D4184-D78D-417E-85B5-24EB9DE18863}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{549DA374-FAEE-42A3-AA74-873D3B4E7E14}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{8FDB7ACC-E1B3-4035-9C5A-75E18E20EFDC}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\BookStore-WAWS-dev.json = PublishScripts\Configurations\BookStore-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F817E9AE-AD4D-4527-8F60-CC427141BF4F}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BookStore.Azure", "BookStore.Azure\BookStore.Azure.ccproj", "{A657D276-DE26-4628-9B0E-546C46313C73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254D4184-D78D-417E-85B5-24EB9DE18863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254D4184-D78D-417E-85B5-24EB9DE18863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254D4184-D78D-417E-85B5-24EB9DE18863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254D4184-D78D-417E-85B5-24EB9DE18863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A657D276-DE26-4628-9B0E-546C46313C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A657D276-DE26-4628-9B0E-546C46313C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A657D276-DE26-4628-9B0E-546C46313C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A657D276-DE26-4628-9B0E-546C46313C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FDB7ACC-E1B3-4035-9C5A-75E18E20EFDC} = {549DA374-FAEE-42A3-AA74-873D3B4E7E14}
+	EndGlobalSection
+EndGlobal

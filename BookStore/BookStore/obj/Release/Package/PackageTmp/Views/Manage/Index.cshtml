@@ -1,0 +1,83 @@
+﻿@model BookStore.Models.ViewModels.ManageViewModel
+@{
+    ViewBag.Title = "Set Official Books";
+}
+@if (User.Identity.IsAuthenticated)
+{
+
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <div class="jumbotron">
+            <div class="container">
+                <h2 class="text-center">Set Official Books</h2>
+                <form role="form">
+                    <div class=" row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                Book Title:
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBox("BookTitle")
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                Author:
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBox("author")
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <input class="btn btn-primary btn-lg" type="submit" value="Search" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+            <asp:content id="Content1">
+                <ul class="list-group">
+            @foreach (var item in Model.AllPostings)
+            {
+                        <li class="list-group-item list-group-item-success">
+                           
+                            @if (item.PostingType.ToUpper() == "OFFICIAL")
+                            {
+                                @Html.DisplayFor(modelItem => item.PostingType)<br>
+                            }
+                            @Html.DisplayNameFor(model => model.postings.PostTitle)  @Html.DisplayFor(modelItem => item.postings.PostTitle) <br>
+                            @Html.DisplayNameFor(model => model.postings.BookTitle)  @Html.DisplayFor(modelItem => item.postings.BookTitle) <br>
+                            @Html.DisplayNameFor(model => model.postings.author)  @Html.DisplayFor(modelItem => item.postings.author) <br>
+                            @Html.DisplayNameFor(model => model.postings.price)  @Html.DisplayFor(modelItem => item.postings.price)<br>                        
+                            @if (item.PostingType.ToUpper() == "OFFICIAL")
+                            {
+                                @Html.DisplayNameFor(model => model.Officialpostings.CourseID)  @Html.DisplayFor(modelItem => item.Opostings.CourseID)<br>
+                                @Html.DisplayNameFor(model => model.Officialpostings.CourseInfo)  @Html.DisplayFor(modelItem => item.Opostings.CourseInfo)<br>
+                                @Html.ActionLink("Set as UnOfficial", "UNOfficialBook", "manage", new { id = item.postings.PostingID }, new { @style = "color:red;" })
+                                 <br>@Html.ActionLink("Edit Official Book", "EditOfficialBook", "manage", new { id = item.postings.PostingID }, new { @style = "color:red;" })
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Set as Official", "OfficialBook", "manage", new { id = item.postings.PostingID }, new { @style = "color:red;" })
+
+                            }
+                            
+                        </li>
+            }
+                </ul>
+            </asp:content>
+
+            }
+            else
+            {
+            <div class="jumbotron">
+                <h1> Search</h1>
+                <p class="lead"> Search the Tri-Bookstore. You can now search for used books</p>
+                <p class="btn btn-default"> @Html.ActionLink("Login", "Login", "Account")</p>
+            </div>
+            }

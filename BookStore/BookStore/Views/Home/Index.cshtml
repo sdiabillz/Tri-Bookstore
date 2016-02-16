@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Tri-BookStore</h1>
+    @if (Request.IsAuthenticated)
+    {
+        if (User.IsInRole("admin") )
+        { 
+            <h2>Manage Postings</h2>
+            @Html.ActionLink("Set Official Books", "Index", "manage")
+        }
+        else
+        {
+            <h2>Welcome to Tri-BookStore, @User.Identity.Name</h2>
+        }
+    }
+    else
+    {
+        <h2>Welcome to Tri-BookStore</h2>
+    <div class="row">
+
+        <div class="col-md-4">
+            <h2>Register</h2>
+            <p>Register if you are not from Conestoga College, Wilfred Laurier University and University of Waterloo.</p>
+            <p>@Html.ActionLink("Register", "Register", "Account")</p>
+        </div>
+
+    </div>
+
+    }
+   
+</div>
+
+<div class="row">
+ 
+    <div class="col-md-4">
+        <h2>Search a book</h2>
+        <p>
+            Search for any book around the Tri-cities of Kitchener, Waterloo and Cambridge.
+        </p>
+        <p><a class="btn btn-default"  @Html.ActionLink("Search", "Index", "Search")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Post a book</h2>
+        <p>Post your used book for any price you desire.
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Post", "Index", "Post") </a></p>
+    </div>
+
+</div>
