@@ -1,7 +1,5 @@
 # Tri-Bookstore
-Code for a used book selling system
-An online used books bookstore that is meant to be used by students from Conestoga College, 
-University of Waterloo and Wilfred Laurier University. The website allowed user to insert 
-used books for sale and search for used books from all the three institutions. 
-The website was developed using ASP.net and Azure cloud storage for its host.
-The code can be run locally, but the website is not live anymore. 
+The purpose of this application is to provide a used book selling service for students/faculty who attend Conestoga College, University of Waterloo and Wilfrid Laurier University. The application will allow users to post, remove, update and search books on the site as well as view the items on sale from the other participating institutions.  Moreover, the system will alleviate the hassle of searching for books elsewhere (other online stores) when students at the same institution use the same books
+
+The college used book sales system is a web based item selling service to sell used books and other school related items. The system will allow users to login in using a valid school email address to access personal accounts.  The site will allow users to create an account used to post items that are for sale and will include features to add, remove, update items, view transaction/purchase history, close accounts and view specific course information if an item is related to a running course. 
+The system will incorporate Windows tools and SQLSERVER databases. Communication will be handled via http; a hosting service will be used to permit access from the public net. 
